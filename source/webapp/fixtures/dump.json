@@ -1,0 +1,122 @@
+[
+{
+  "model": "webapp.status",
+  "pk": 1,
+  "fields": {
+    "status_name": "New"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 2,
+  "fields": {
+    "status_name": "In Progress"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 3,
+  "fields": {
+    "status_name": "Done"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 1,
+  "fields": {
+    "type_name": "Bug"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 2,
+  "fields": {
+    "type_name": "Enhancement"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 3,
+  "fields": {
+    "type_name": "Task"
+  }
+},
+{
+  "model": "webapp.tracker",
+  "pk": 5,
+  "fields": {
+    "status": 2,
+    "type": 1,
+    "short_description": "Test1",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse risus lacus, placerat rhoncus lacinia porta, laoreet ut justo. Duis malesuada dui id mauris imperdiet molestie. Nullam placerat velit scelerisque, venenatis urna et, vehicula metus. Mauris tristique commodo risus quis congue.",
+    "created_at": "2022-11-18",
+    "updated_at": "2022-11-18"
+  }
+},
+{
+  "model": "webapp.tracker",
+  "pk": 6,
+  "fields": {
+    "status": 1,
+    "type": 1,
+    "short_description": "Test2",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis imperdiet odio quis aliquam. Etiam gravida eros ipsum, a laoreet nibh venenatis non. Nullam vel eleifend lectus. Vestibulum sit amet elit eget nunc tempor aliquam at sed ipsum. Suspendisse potenti. Duis accumsan magna eget dignissim posuere. Donec consequat turpis velit, a viverra dui aliquam a. Maecenas a lacinia sem, at aliquam est. Morbi tristique turpis massa, ac luctus nibh egestas vel. Nam sed finibus neque, ac bibendum lectus. Morbi pulvinar magna vel aliquet dapibus. Aliquam at aliquet felis. Aenean ultricies.",
+    "created_at": "2022-11-18",
+    "updated_at": "2022-11-18"
+  }
+},
+{
+  "model": "webapp.tracker",
+  "pk": 7,
+  "fields": {
+    "status": 3,
+    "type": 2,
+    "short_description": "Test3",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel iaculis velit, vel laoreet neque. Mauris quis sollicitudin metus, ac mollis massa. Praesent vel lorem non metus finibus fringilla. Praesent sit amet varius sem. Nullam quis dolor tortor. Integer consequat imperdiet metus, a venenatis nisi iaculis et. Curabitur nisi diam, gravida eu risus sed, maximus tristique sapien. Nam ultrices convallis lobortis. Mauris tortor ante, congue id egestas non, pharetra quis.",
+    "created_at": "2022-11-18",
+    "updated_at": "2022-11-18"
+  }
+},
+{
+  "model": "webapp.tracker",
+  "pk": 8,
+  "fields": {
+    "status": 1,
+    "type": 3,
+    "short_description": "Tets4",
+    "content": "molestie risus fermentum. Cras eget molestie elit. Aliquam vitae metus eu diam mattis volutpat. Curabitur egestas nunc vitae elit vehicula, eget viverra enim venenatis. Aliquam non tortor in nisi commodo volutpat eget id leo. Nam volutpat, nibh ac gravida vestibulum, tellus nibh egestas ligula, eu suscipit quam turpis at nisl.\r\n\r\nProin pellentesque leo accumsan faucibus convallis. Duis lorem magna, porttitor eget vehicula in, consectetur id enim. Nullam sodales eu metus non elementum. Aenean porta augue sit amet mauris bibendum, non porttitor dolor ullamcorper. Morbi elementum eu enim vel porttitor. Aliquam non condimentum lacus. Nulla vehicula ac dui quis fermentum. Donec euismod aliquet quam ac blandit. Aliquam facilisis felis purus, ornare placerat libero interdum quis. In ut neque mollis, viverra metus non, tristique nibh. In quis pharetra felis, sed dignissim ipsum. In consequat sodales lectus non dignissim. Nulla condimentum dignissim efficitur. Maecenas eget sem non urna mattis porttitor.",
+    "created_at": "2022-11-18",
+    "updated_at": "2022-11-18"
+  }
+},
+{
+  "model": "webapp.tracker",
+  "pk": 9,
+  "fields": {
+    "status": 1,
+    "type": 2,
+    "short_description": "Test5",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue viverra faucibus. Aliquam eget erat ut purus laoreet euismod et in mauris. Mauris aliquam nulla eu facilisis interdum. Pellentesque pharetra convallis tortor, a convallis est. Praesent congue massa at sapien facilisis convallis. Nunc suscipit commodo euismod. Aenean eu eros facilisis, feugiat arcu eget, pretium est.\r\n\r\nIn mollis rutrum massa ac cursus. Maecenas eu dolor non velit tristique fringilla. Praesent varius quam odio. Proin pulvinar dapibus lorem, sit amet lobortis ligula consectetur vitae. Donec ut dolor purus. Mauris et scelerisque sem, eu facilisis lectus. Maecenas at feugiat ipsum, vitae lobortis leo. Aenean tempor ut nisl quis aliquet. Nunc sed lacus sapien. Curabitur porttitor pharetra sapien, sit amet lacinia ipsum. In accumsan mi vitae neque malesuada venenatis.\r\n\r\nAenean efficitur bibendum magna, ac porttitor leo aliquet a. In nec eros tempus, placerat mauris a, congue neque. Phasellus cursus convallis augue, non ullamcorper purus.",
+    "created_at": "2022-11-18",
+    "updated_at": "2022-11-18"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$K8KyZGzBfKfgy2gmriJhBl$ZZs8Zv/uF/BPejPmkHFrEDFCiwkS08FCNNhpvFb14Ww=",
+    "last_login": "2022-11-18T09:02:22.212Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-18T09:02:01.072Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
